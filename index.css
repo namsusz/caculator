@@ -1,0 +1,78 @@
+@import "reset.css";
+
+body {
+  background-color: #dde1e7;
+  font-family: "Roboto Slab", serif;
+}
+
+header {
+  font-size: 22px;
+  letter-spacing: -0.7px;
+  font-weight: 400;
+  color: #a9b5c6;
+  display: block;
+  text-align: center;
+  margin: 120px auto 23px auto;
+  cursor: default;
+}
+
+.container {
+  width: 330px;
+  height: 530px;
+  background-color: #dde1e7;
+  padding: 30px;
+  border-radius: 12px;
+  margin: 0 auto;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+.result {
+  height: 70px;
+  width: 100%;
+  /*box-shadow: inset -3px -3px 7px rgba(94, 104, 121, 0.288);*/
+  border-radius: 10px;
+  color: #a9b5c6;
+  font-size: 28px;
+  text-align: right;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 40px 0 15px 0;
+  cursor: default;
+}
+
+.btn_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 19px;
+}
+.btn_wrap:last-child {
+  margin-bottom: 0;
+}
+
+.btn {
+  width: 66px;
+  height: 66px;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+  border-radius: 11px;
+  color: #8e9eb5;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 24px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: inset -3px -3px 7px #ffffff73,
+    inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+  font-size: 15px;
+  padding-top: 26px;
+}
+
+.btn_zero {
+  width: 152px;
+}
