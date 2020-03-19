@@ -69,7 +69,9 @@ function show_result() {
       break;
     case "/":
       if (num2 == "0") {
-        result.innerHTML = "0으로 나눌 수 없어요 (´∩ω∩｀)";
+        alert("0으로 나눌 수 없어요 (´∩ω∩｀)");
+        result.innerHTML = "0";
+        // result.innerHTML = "0으로 나눌 수 없어요 (´∩ω∩｀)";
       } else {
         result.innerHTML = Number(num1) / Number(num2);
       }
